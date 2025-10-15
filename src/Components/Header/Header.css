@@ -1,0 +1,111 @@
+    .header-bg {
+        padding-inline: 20px !important;
+    }
+    .icon-style{
+        font-size: 15px;
+    }
+
+    @media screen and (min-width:576px) {
+        .header-bg {
+            padding-inline: 50px !important;
+        }
+        .icon-style{
+            font-size: 22px;
+        }
+    }
+
+    .header-bg {
+        background-color: #1B1B1B;
+        border: 1px solid #302d2d;
+        margin-inline: 10px;
+        margin-top: 10px;
+        position: sticky;
+        box-shadow: 0px 6px 18px -5px rgba(0 0 1);
+        position: sticky;
+        padding: 25px;
+        cursor: default;
+    }
+
+    .main-list {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        cursor: default;
+    }
+
+    .main-list>li:hover {
+        border-bottom: 2px solid #D4AF37;
+    }
+
+    .main-list>li>a {
+        cursor: default;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600;
+        color: #9C9C9C;
+    }
+
+    .main-list>li:hover>a {
+        color: #E5C97E;
+    }
+
+
+    .burger {
+        position: relative;
+    }
+
+
+    .cross-icon {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+
+    .x-icon {
+        transition: transform 0.5s ease, border 0.2s ease;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .x-icon:hover {
+        color: red;
+        font-size: 50px;
+        transform: rotate(180deg);
+    }
+
+    .mobile-menu {
+        border-radius: 12px;
+        background-color: #060606;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        left: 10px;
+        height: auto;
+        border: 30px;
+    }
+
+    .mobile-menu>ul>li {
+        font-size: 22px;
+        font-weight: 600;
+        padding: 6px;
+        width: 100%;
+    }
+
+    .mobile-menu>ul>li:hover {
+        background-color: aqua;
+    }
+
+
+    .social>ul>li {
+        font-size: 17px;
+        font-weight: 600;
+        color: #9C9C9C;
+    }
+
+    .social>ul>li:hover {
+        border-bottom: 2px solid #D4AF37;
+    }
+
+    .social>ul>li:hover >a {
+        color: #E5C97E;
+    }
